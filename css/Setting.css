@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Vazir;
+  src: url(../fonts/Vazirmatn-Black.ttf);
+}
+
+@keyframes zoomGlow {
+  0%, 100% {
+    transform: scale(1);
+    text-shadow: 0 0 10px rgba(255, 42, 133, 0.4);
+  }
+  50% {
+    transform: scale(1.08); /* خیلی نرم و با وقار میاد جلو */
+    text-shadow: 0 0 25px #ff2a85, 0 0 45px #ff2a85, 0 0 70px #ff0055; /* نور نئونی ملایم و جذاب */
+  }
+}
